@@ -1,0 +1,32 @@
+name: svgo
+base: core20
+version: '2.7.0'
+summary: a Node.js-based tool for optimizing SVG vector graphics files
+description: |
+  SVG files, especially those exported from various editors, usually contain a
+  lot of redundant and useless information. This can include editor metadata,
+  comments, hidden elements, default or non-optimal values and other stuff that
+  can be safely removed or converted without affecting the SVG rendering
+  result.
+
+  SVGO helps remove those redundant parts.
+
+grade: stable
+confinement: strict
+license: MIT
+source-code: https://github.com/ralight/svgo-snap
+issues: https://github.com/ralight/svgo-snap/issues
+
+apps:
+  svgo:
+    plugs:
+      - home
+      - removable-media
+    command: bin/svgo
+
+parts:
+  svgo:
+    plugin: npm
+    npm-node-version: 14.8.0
+    source: https://github.com/svg/svgo
+    source-type: git
