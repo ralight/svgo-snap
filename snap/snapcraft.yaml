@@ -8,14 +8,14 @@ description: |
   comments, hidden elements, default or non-optimal values and other stuff that
   can be safely removed or converted without affecting the SVG rendering
   result.
-
+  
   SVGO helps remove those redundant parts.
 
 grade: stable
 confinement: strict
 license: MIT
-source-code: https://github.com/ralight/svgo-snap
-issues: https://github.com/ralight/svgo-snap/issues
+#source-code: https://github.com/ralight/svgo-snap
+#issues: https://github.com/ralight/svgo-snap/issues
 
 apps:
   svgo:
