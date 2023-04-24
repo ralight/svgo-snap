@@ -11,6 +11,7 @@ description: |
   
   SVGO helps remove those redundant parts.
 
+compression: lzo
 grade: stable
 confinement: strict
 license: MIT
