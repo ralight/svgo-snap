@@ -27,6 +27,6 @@ apps:
 parts:
   svgo:
     plugin: npm
-    npm-node-version: 18.16.0
+    npm-node-version: 16.15.0
     source: https://github.com/svg/svgo
     source-type: git
