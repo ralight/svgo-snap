@@ -1,6 +1,6 @@
 name: svgo
 base: core20
-version: '3.0.2'
+version: '3.0.4'
 summary: a Node.js-based tool for optimizing SVG vector graphics files
 description: |
   SVG files, especially those exported from various editors, usually contain a
@@ -28,6 +28,6 @@ apps:
 parts:
   svgo:
     plugin: npm
-    npm-node-version: 16.15.0
+    npm-node-version: 20.9.0
     source: https://github.com/svg/svgo
     source-type: git
