@@ -1,5 +1,5 @@
 name: svgo
-base: core20
+base: core24
 version: '3.3.2'
 summary: a Node.js-based tool for optimizing SVG vector graphics files
 description: |
@@ -28,6 +28,7 @@ apps:
 parts:
   svgo:
     plugin: npm
-    npm-node-version: 20.9.0
+    npm-include-node: true
+    npm-node-version: 24.12.0
     source: https://github.com/svg/svgo
     source-type: git
